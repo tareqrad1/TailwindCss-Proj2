@@ -14,8 +14,8 @@
     <!-- End Links -->
     <title>UPBOX</title>
 </head>
-<body class="font-Dm-sans-small">
-    <!-- ================================== Start the navbar ================================== -->
+<body class="font-Dm-sans-small h-[1000vh]">
+    <!-- ================================== Start the Navbar ================================== -->
     <img src="./img/TOPBAR 1.png" alt="TOPBAR" class="w-full">
     <nav class="relative">
         <div class="container flex justify-between items-center py-4">
@@ -44,17 +44,15 @@
             </ul>
         </div>
     </nav>
-    <!-- ================================== Start the landing-page ================================== -->
-    
+    <!-- ================================== Start the Landing-Page ================================== -->
     <section class="bg-sec py-8">
         <div class="container flex flex-col lg:flex-row items-center">
-
             <div class="left-side lg:1/2 lg:w-1/2 sm:w-full mb-14 lg:mb-0">
                 <div class="text space-y-7">
                     <h1 class="font-Dm-serif-big text-[48px] font-medium max-w-full">Look good without leaving your house.</h1>
                     <p>Upbox is the easiest way to look your best without having to hunt for the perfect makeup combination. Our stylists curate the latest trends and send them directly to your door every month.</p>
                 </div>
-                <button class="btn relative z-20 mt-7 border-2 border-main rounded-full px-5 py-1">SIGN UP ></button>
+                <button class="btn relative z-20 mt-7 border-2 border-main rounded-full px-5 py-1 font-semibold tracking-[0.12em]">SIGN UP ></button>
             </div>
             <div class="right-side lg:1/2 lg:w-1/2 sm:w-full relative">
                 <div class="relative z-2">
@@ -63,9 +61,65 @@
             </div>
         </div>
     </section>
-
-
-
+    <!-- ================================== Start the Your-Plane ================================== -->
+    <section class="py-[50px]">
+        <div class="underLine flex items-center justify-center flex-col mb-14">
+            <h1 class="font-Dm-serif-big text-[48px]">Pick your plan</h1>
+            <img src="./img/underline.png" alt="">
+        </div>
+        <div class="container flex justify-between items-center gap-x-32 lg:flex-row flex-col gap-y-10 lg:gap-y-0 h-fit">
+            <div class="box lg:w-1/2 w-full bg-white flex flex-col justify-center items-center border-2 border-[#C4C4C4] py-[50px] relative overflow-hidden">
+                    <h1 class="text-[36px] font-Dm-serif-big z-10">Monthly</h1>
+                    <p class="text-[44px] z-10 ">$18/mo</p>
+                    <div class="relative w-fit z-20 border-2 border-main rounded-full px-5 py-3 text-[16px] cursor-pointer bg-main text-white mt-3 z-10">FIND YOUR BOX</div>
+                    <img src="./img/Vector.png" alt="" class="absolute top-0 left-[50%] z-0 h-full -translate-x-[50%]">
+            </div>
+            <!--  -->
+            <div class="box lg:w-1/2 w-full bg-white flex flex-col justify-center items-center border-2 border-[#C4C4C4] py-[50px] relative overflow-hidden">
+                <h1 class="text-[36px] font-Dm-serif-big z-10">Yearly</h1>
+                    <p class="text-[44px] z-10 ">$15/mo</p>
+                    <div class="relative w-fit z-20 border-2 border-main rounded-full px-5 py-3 text-[16px] cursor-pointer bg-main text-white mt-3 z-10">FIND YOUR BOX</div>
+                    <img src="./img/Vector2.png" alt="" class="absolute top-0 left-[50%] z-0 h-full -translate-x-[50%]">
+            </div>
+        </div>
+        <p class="text-18px tracking-[0.01em] text-center mt-10 text-[rgba(0, 0, 0, 1)] px-5 md:px-0">Your plan auto-renews at the end of 30 days from the 1st day you signed-up.</p>
+    </section>
+    <!-- ================================== Start the Works ================================== -->
+    <section class="py-[50px]">
+        <div class="underLine flex items-center justify-center flex-col mb-32">
+            <h1 class="font-Dm-serif-big text-[48px]">How it works?</h1>
+            <img src="./img/underline.png" alt="">
+        </div>
+        <div class="container flex justify-center items-center lg:items-start gap-x-14 flex-col lg:flex-row">
+            <div class="imges relative">
+                <div class="img-one relative">
+                    <img src="./img/Mask Group-1.png" alt="girl" class="relative z-10">
+                </div>
+                <img src="./img/1.png" alt="one" class="absolute left-0 top-0 z-20">
+                <!-- <img src="./img/Marker.png" alt="maker" class="absolute left-0 top-0 z-10"> -->
+            </div>
+            <div class="text mt-10 space-y-4 max-w-full">
+                <h1 class="text-[36px] font-Dm-serif-big w-[500px] max-w-full">Setup your profile & preferences</h1>
+                <p class="w-[400px] max-w-full">Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <section class="py-[50px]">
+        <div class="container flex items-center justify-center flex-col lg:flex-row w-full">
+            <div class="text lg:w-[600px] mb-14 lg:mb-0">
+                <h1 class="font-Dm-serif-big text-[40px] md:text-[50px] mb-3 max-w-full">Try it on at home</h1>
+                <p class="lg:w-[490px]">Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
+            </div>
+            <div class="imges relative">
+                <div class="imges-two relative">
+                    <img src="./img/Mask Group-2.png" alt="girl" class="lg:w-[300px] relative z-10">
+                </div>
+                <img src="./img/2.png" alt="" class="absolute left-0 top-0 z-20">
+            </div>
+        </div>
+        <button class="btn relative block mt-[55px] m-auto border-2 border-main py-2 p-8 rounded-full tracking-[0.12em] font-semibold text-[16px]">TRY IT FOR YOURSELF ></button>
+    </section>
 
     <script src="./index.js"></script>
 </body>
